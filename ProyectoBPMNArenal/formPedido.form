@@ -1,0 +1,527 @@
+{
+  "components": [
+    {
+      "text": "# Platos",
+      "type": "text",
+      "layout": {
+        "row": "Row_17983zc",
+        "columns": null
+      },
+      "id": "Field_1h3rnr6"
+    },
+    {
+      "label": "# Mesa",
+      "type": "number",
+      "layout": {
+        "row": "Row_1oudm2f",
+        "columns": null
+      },
+      "id": "Field_0b472vb",
+      "key": "numberMesa",
+      "disabled": true
+    },
+    {
+      "label": "Truchas (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0uvge5h",
+        "columns": null
+      },
+      "id": "Field_1f9whxm",
+      "key": "numberTruchas",
+      "defaultValue": 0
+    },
+    {
+      "label": "Bagre en Salsa(38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_10i98lr",
+        "columns": null
+      },
+      "id": "Field_15i2u89",
+      "key": "numberBagresS",
+      "defaultValue": 0
+    },
+    {
+      "label": "Filete de Mojarra(37k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_15nu4fu",
+        "columns": null
+      },
+      "id": "Field_0m1e5du",
+      "key": "numberFM",
+      "defaultValue": 0
+    },
+    {
+      "label": "Filete de Robalo(45k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0gcserx",
+        "columns": null
+      },
+      "id": "Field_1ylf45r",
+      "key": "numberFR",
+      "defaultValue": 0
+    },
+    {
+      "label": "Filete de Mojarra al Ajillo (43k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_031sq6n",
+        "columns": null
+      },
+      "id": "Field_0m4dmoe",
+      "key": "numberFMalAjillo",
+      "defaultValue": 0
+    },
+    {
+      "label": "Baby Beef (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1itmbzw",
+        "columns": null
+      },
+      "id": "Field_0qzr5bg",
+      "key": "numberBabyBeef",
+      "defaultValue": 0
+    },
+    {
+      "label": "Churrasco (34k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1qlf1d3",
+        "columns": null
+      },
+      "id": "Field_1kp5aoz",
+      "key": "numberChurrasco",
+      "defaultValue": 0
+    },
+    {
+      "label": "Pechuga a la Plancha (33k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_14yzr20",
+        "columns": null
+      },
+      "id": "Field_18haogu",
+      "key": "numberPechugaALaPlancha",
+      "defaultValue": 0
+    },
+    {
+      "label": "Arroz con Camaron(37k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_05qu9tu",
+        "columns": null
+      },
+      "id": "Field_1ai162j",
+      "key": "numberArrozCamaron",
+      "defaultValue": 0
+    },
+    {
+      "label": "Arroz con Pollo (28k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_04uptro",
+        "columns": null
+      },
+      "id": "Field_10ug2l4",
+      "key": "numberArrozPollo",
+      "defaultValue": 0
+    },
+    {
+      "label": "Cazuela de Mariscos (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1hydieh",
+        "columns": null
+      },
+      "id": "Field_1cphasn",
+      "key": "numberCazuelaMariscos",
+      "defaultValue": 0
+    },
+    {
+      "label": "Cazuela de Camarones (45k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_08w6ikw",
+        "columns": null
+      },
+      "id": "Field_0xxv652",
+      "key": "numberCazuelaCamarones",
+      "defaultValue": 0
+    },
+    {
+      "text": "# Acompañamientos",
+      "type": "text",
+      "layout": {
+        "row": "Row_0u3auss",
+        "columns": null
+      },
+      "id": "Field_1700ldf"
+    },
+    {
+      "label": "Arroz Coco",
+      "type": "number",
+      "layout": {
+        "row": "Row_0zazeyf",
+        "columns": null
+      },
+      "id": "Field_1d99nmr",
+      "key": "numberArrozCoco",
+      "defaultValue": 0
+    },
+    {
+      "label": "Arroz Blanco",
+      "type": "number",
+      "layout": {
+        "row": "Row_12pgxes",
+        "columns": null
+      },
+      "id": "Field_15ir5d0",
+      "key": "numberArrozBlanco",
+      "defaultValue": 0
+    },
+    {
+      "label": "Ensaladas",
+      "type": "number",
+      "layout": {
+        "row": "Row_18k11tq",
+        "columns": null
+      },
+      "id": "Field_0ol6xan",
+      "key": "numberEnsaladas",
+      "defaultValue": 0
+    },
+    {
+      "label": "Consomes",
+      "type": "number",
+      "layout": {
+        "row": "Row_1wcm0p6",
+        "columns": null
+      },
+      "id": "Field_18c6ms8",
+      "key": "numberConsome",
+      "defaultValue": 0
+    },
+    {
+      "text": "# Bebidas",
+      "type": "text",
+      "layout": {
+        "row": "Row_0brt7ui",
+        "columns": null
+      },
+      "id": "Field_1q9zcgt"
+    },
+    {
+      "label": "¿Bebidas?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0xkf1gx",
+        "columns": null
+      },
+      "id": "Field_0m01h98",
+      "key": "CheckBebidas"
+    },
+    {
+      "label": "Preparada (4k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_04758ol",
+        "columns": null
+      },
+      "id": "Field_0g48zcu",
+      "key": "numberPreparada",
+      "defaultValue": 0
+    },
+    {
+      "label": "Jarra Preparada (14k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1iwpnz5",
+        "columns": null
+      },
+      "id": "Field_027sdsr",
+      "key": "numberJarraPreparada",
+      "defaultValue": 0
+    },
+    {
+      "label": "Zumo Naranja (8.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0idn8s6",
+        "columns": null
+      },
+      "id": "Field_1qthmab",
+      "key": "numberZumoNaranja",
+      "defaultValue": 0
+    },
+    {
+      "label": "Jarra Zumo Naranja (30k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_107zp36",
+        "columns": null
+      },
+      "id": "Field_0tr7tyo",
+      "key": "numberJarraZumoNaranja",
+      "defaultValue": 0
+    },
+    {
+      "label": "Zumo Mandarina (8.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0u3jh0y",
+        "columns": null
+      },
+      "id": "Field_0i7okoi",
+      "key": "numberZumoMandarina",
+      "defaultValue": 0
+    },
+    {
+      "label": "Jarra Zumo Mandarina (30k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1tlex9p",
+        "columns": null
+      },
+      "id": "Field_0mzx0r0",
+      "key": "numberJarraZumoMandarina",
+      "defaultValue": 0
+    },
+    {
+      "label": "Jugo natural en agua (6.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1ypgwf8",
+        "columns": null
+      },
+      "id": "Field_0gpz3tu",
+      "key": "numberJugoAgua",
+      "defaultValue": 0
+    },
+    {
+      "label": "Fruta",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0s6gp7d",
+        "columns": null
+      },
+      "id": "Field_086pifz",
+      "key": "frutaJugoAgua"
+    },
+    {
+      "label": "Jugo natural en leche (8.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1re88jc",
+        "columns": null
+      },
+      "id": "Field_1a0g9z7",
+      "key": "numberJugoLeche",
+      "defaultValue": 0
+    },
+    {
+      "label": "Fruta",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_153e7ww",
+        "columns": null
+      },
+      "id": "Field_1expyqx",
+      "key": "frutaJugoLeche"
+    },
+    {
+      "label": "Jarra de Naranjada (19k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0ebd0kx",
+        "columns": null
+      },
+      "id": "Field_17r8jqs",
+      "key": "numberJarraNaranjada",
+      "defaultValue": 0
+    },
+    {
+      "label": "Jarra de Mandarinada (19k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_12psekv",
+        "columns": null
+      },
+      "id": "Field_1ord8hb",
+      "key": "numberJarraMandarinada",
+      "defaultValue": 0,
+      "disabled": false
+    },
+    {
+      "label": "Gaseosa personal (5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0tduq3t",
+        "columns": null
+      },
+      "id": "Field_06bnyxm",
+      "key": "numberGaseosaPersonal",
+      "defaultValue": 0
+    },
+    {
+      "label": "Sabor",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1eylac5",
+        "columns": null
+      },
+      "id": "Field_0sjc0p4",
+      "key": "field_1yaihpe"
+    },
+    {
+      "label": "Gaseosa Mega (15k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0uzzq75",
+        "columns": null
+      },
+      "id": "Field_1el4qdj",
+      "key": "numberGaseosaMega",
+      "defaultValue": 0
+    },
+    {
+      "label": "Sabor",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vb0e49",
+        "columns": null
+      },
+      "id": "Field_1pivyzr",
+      "key": "field_0o9f6zg"
+    },
+    {
+      "label": "Gaseosa 1,5 Lts (9k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_07gxuxb",
+        "columns": null
+      },
+      "id": "Field_0s946mh",
+      "key": "numberGaseosaLts",
+      "defaultValue": 0
+    },
+    {
+      "label": "Sabor",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1263zgz",
+        "columns": null
+      },
+      "id": "Field_0jg6iw6",
+      "key": "field_0yikbhk"
+    },
+    {
+      "label": "Cerveza Poker (6k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_03ocgbp",
+        "columns": null
+      },
+      "id": "Field_0i82r7k",
+      "key": "numberCervezaPoker",
+      "defaultValue": 0
+    },
+    {
+      "label": "Cerveza Aguila (6k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_17fpgt2",
+        "columns": null
+      },
+      "id": "Field_1epuerm",
+      "key": "numberCervezaAguila",
+      "defaultValue": 0
+    },
+    {
+      "label": "Cerveza Aguila Ligth (7.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0qaxxf6",
+        "columns": null
+      },
+      "id": "Field_101y9ng",
+      "key": "numberCervezaAguilaLigth",
+      "defaultValue": 0
+    },
+    {
+      "label": "Cerveza Club Dorada (7.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_011vkho",
+        "columns": null
+      },
+      "id": "Field_0k9fjqg",
+      "key": "numberCervezaClubDorada",
+      "defaultValue": 0
+    },
+    {
+      "label": "Agua en Botella (4.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0ez0wqa",
+        "columns": null
+      },
+      "id": "Field_0mhsjj7",
+      "key": "numberAguaBotella",
+      "defaultValue": 0
+    },
+    {
+      "text": "# Postres",
+      "type": "text",
+      "layout": {
+        "row": "Row_1derrpq",
+        "columns": null
+      },
+      "id": "Field_0joye6s"
+    },
+    {
+      "label": "¿Postres?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_1dng0u2",
+        "columns": null
+      },
+      "id": "Field_19mazi4",
+      "key": "CheckPostres"
+    },
+    {
+      "label": "Postres (8.5k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1b0te2l",
+        "columns": null
+      },
+      "id": "Field_1ddog70",
+      "key": "numberPostres",
+      "defaultValue": 0
+    },
+    {
+      "label": "Helados (6.2k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0spn27n",
+        "columns": null
+      },
+      "id": "Field_1r9w50g",
+      "key": "numberHelado",
+      "defaultValue": 0
+    }
+  ],
+  "type": "default",
+  "id": "FormPedido",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

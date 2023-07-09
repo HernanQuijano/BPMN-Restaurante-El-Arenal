@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "text": "# Factura Electrónica",
+      "type": "text",
+      "layout": {
+        "row": "Row_1i1mqj6",
+        "columns": null
+      },
+      "id": "Field_042f8c1"
+    },
+    {
+      "label": "¿Factura Electrónica?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0m6nqj9",
+        "columns": null
+      },
+      "id": "Field_1ihrlv4",
+      "key": "CheckFacElec",
+      "disabled": false,
+      "defaultValue": false
+    },
+    {
+      "text": "# Datos facturación",
+      "type": "text",
+      "layout": {
+        "row": "Row_0vjm3ha",
+        "columns": null
+      },
+      "id": "Field_182t6pv"
+    },
+    {
+      "label": "Nombres",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01nuvc5",
+        "columns": null
+      },
+      "id": "Field_0glbm2i",
+      "key": "nombres"
+    },
+    {
+      "label": "Apellidos",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0he3t1q",
+        "columns": null
+      },
+      "id": "Field_081krbq",
+      "key": "apellidos"
+    },
+    {
+      "label": "NIF",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_084s9t4",
+        "columns": null
+      },
+      "id": "Field_07euk0q",
+      "key": "nif"
+    },
+    {
+      "label": "Correo Electrónico",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0x7ms0b",
+        "columns": null
+      },
+      "id": "Field_0t9bjaz",
+      "key": "correoElectronico"
+    },
+    {
+      "label": "Dirección",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1budgnd",
+        "columns": null
+      },
+      "id": "Field_04kqhwo",
+      "key": "direccion"
+    }
+  ],
+  "type": "default",
+  "id": "FormFacturaElectronica",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

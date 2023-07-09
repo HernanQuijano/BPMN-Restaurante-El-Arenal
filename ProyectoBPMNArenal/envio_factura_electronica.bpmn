@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_01os0n6" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <bpmn:process id="gestionFacturacionElectronica" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" name="Envío factura electrónica">
+      <bpmn:extensionElements />
+      <bpmn:outgoing>Flow_168dh74</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_168dh74" sourceRef="StartEvent_1" targetRef="Activity_01flo78" />
+    <bpmn:manualTask id="Activity_01flo78" name="Enviar factura electrónica">
+      <bpmn:incoming>Flow_168dh74</bpmn:incoming>
+      <bpmn:outgoing>Flow_1plwdfk</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:sequenceFlow id="Flow_1plwdfk" sourceRef="Activity_01flo78" targetRef="Activity_0j4nzj9" />
+    <bpmn:manualTask id="Activity_0j4nzj9" name="Confirmar pago y envío de la factura electrónica al mesero">
+      <bpmn:incoming>Flow_1plwdfk</bpmn:incoming>
+      <bpmn:outgoing>Flow_1we57io</bpmn:outgoing>
+    </bpmn:manualTask>
+    <bpmn:endEvent id="Event_1ktjb7y" name="Final envío factura electrónica">
+      <bpmn:incoming>Flow_1we57io</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="Flow_1we57io" sourceRef="Activity_0j4nzj9" targetRef="Event_1ktjb7y" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="gestionFacturacionElectronica">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="182" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="169" y="142" width="65" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0qx58qx_di" bpmnElement="Activity_01flo78">
+        <dc:Bounds x="300" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0i2qyjr_di" bpmnElement="Activity_0j4nzj9">
+        <dc:Bounds x="490" y="77" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1ktjb7y_di" bpmnElement="Event_1ktjb7y">
+        <dc:Bounds x="672" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="646" y="142" width="89" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_168dh74_di" bpmnElement="Flow_168dh74">
+        <di:waypoint x="218" y="117" />
+        <di:waypoint x="300" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1plwdfk_di" bpmnElement="Flow_1plwdfk">
+        <di:waypoint x="400" y="117" />
+        <di:waypoint x="490" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1we57io_di" bpmnElement="Flow_1we57io">
+        <di:waypoint x="590" y="117" />
+        <di:waypoint x="672" y="117" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

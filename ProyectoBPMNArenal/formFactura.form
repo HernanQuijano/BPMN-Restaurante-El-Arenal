@@ -1,0 +1,901 @@
+{
+  "components": [
+    {
+      "text": "# Factura",
+      "type": "text",
+      "layout": {
+        "row": "Row_1yq7l73",
+        "columns": null
+      },
+      "id": "Field_1mkldb2"
+    },
+    {
+      "label": "# Mesa",
+      "type": "number",
+      "layout": {
+        "row": "Row_187ycl5",
+        "columns": null
+      },
+      "id": "Field_0b472vb",
+      "key": "numberMesa",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "text": "# Platos (Valor)",
+      "type": "text",
+      "layout": {
+        "row": "Row_1chko3n",
+        "columns": null
+      },
+      "id": "Field_1h3rnr6"
+    },
+    {
+      "label": "Truchas (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0uvge5h",
+        "columns": null
+      },
+      "id": "Field_1f9whxm",
+      "key": "numberTruchas",
+      "disabled": true
+    },
+    {
+      "label": " $",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0p5l3s6",
+        "columns": null
+      },
+      "id": "Field_0smypcz",
+      "key": "invoiceTotalTruchas",
+      "disabled": true
+    },
+    {
+      "label": "Bagre en Salsa(38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0k0vim7",
+        "columns": null
+      },
+      "id": "Field_15i2u89",
+      "key": "numberBagresS",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_18tes7u",
+        "columns": null
+      },
+      "id": "Field_1trtbyv",
+      "key": "invoiceTotalBagresS",
+      "disabled": true
+    },
+    {
+      "label": "Filete de Mojarra(37k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1psw6ot",
+        "columns": null
+      },
+      "id": "Field_0m1e5du",
+      "key": "numberFM",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_18kepd5",
+        "columns": null
+      },
+      "id": "Field_0x96voy",
+      "key": "invoiceTotalFM",
+      "disabled": true
+    },
+    {
+      "label": "Filete de Robalo(45k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1uq1s85",
+        "columns": null
+      },
+      "id": "Field_1ylf45r",
+      "key": "numberFR",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1a20k3p",
+        "columns": null
+      },
+      "id": "Field_1l8va29",
+      "key": "invoiceTotalFR",
+      "disabled": true
+    },
+    {
+      "label": "Filete de Mojarra al Ajillo (43k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_031sq6n",
+        "columns": null
+      },
+      "id": "Field_0m4dmoe",
+      "key": "numberFMalAjillo",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01akq6w",
+        "columns": null
+      },
+      "id": "Field_0jyg2mg",
+      "key": "invoiceTotalFMAlAjillo",
+      "disabled": true
+    },
+    {
+      "label": "Baby Beef (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0yzkk14",
+        "columns": null
+      },
+      "id": "Field_0qzr5bg",
+      "key": "numberBabyBeef",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0a10hz1",
+        "columns": null
+      },
+      "id": "Field_1fbl8qd",
+      "key": "invoiceTotalBabyBeef",
+      "disabled": true
+    },
+    {
+      "label": "Churrasco (34k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0h6r72h",
+        "columns": null
+      },
+      "id": "Field_1kp5aoz",
+      "key": "numberChurrasco",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_12af7dy",
+        "columns": null
+      },
+      "id": "Field_15ofyq5",
+      "key": "invoiceTotalChurrasco",
+      "disabled": true
+    },
+    {
+      "label": "Pechuga a la Plancha (33k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_1l5jd6c",
+        "columns": null
+      },
+      "id": "Field_18haogu",
+      "key": "numberPechugaALaPlancha",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01585xh",
+        "columns": null
+      },
+      "id": "Field_0hj5svc",
+      "key": "invoiceTotalPechugaALaPlancha",
+      "disabled": true
+    },
+    {
+      "label": "Arroz con Camaron(37k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_05qu9tu",
+        "columns": null
+      },
+      "id": "Field_1ai162j",
+      "key": "numberArrozCamaron",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1o1lwmo",
+        "columns": null
+      },
+      "id": "Field_1bpq692",
+      "key": "invoiceTotalArrozCamaron",
+      "disabled": true
+    },
+    {
+      "label": "Arroz con Pollo (28k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_0lag1yb",
+        "columns": null
+      },
+      "id": "Field_10ug2l4",
+      "key": "numberArrozPollo",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_013qecg",
+        "columns": null
+      },
+      "id": "Field_19nbq63",
+      "key": "invoiceTotalArrozPollo",
+      "disabled": true
+    },
+    {
+      "label": "Cazuela de Mariscos (38k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_09f7pca",
+        "columns": null
+      },
+      "id": "Field_1cphasn",
+      "key": "numberCazuelaMariscos",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1gzi0mi",
+        "columns": null
+      },
+      "id": "Field_1r10a8f",
+      "key": "invoiceTotalCazuelaMariscos",
+      "disabled": true
+    },
+    {
+      "label": "Cazuela de Camarones (45k)",
+      "type": "number",
+      "layout": {
+        "row": "Row_04uk4vq",
+        "columns": null
+      },
+      "id": "Field_0xxv652",
+      "key": "numberCazuelaCamarones",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0868jsl",
+        "columns": null
+      },
+      "id": "Field_1eywkww",
+      "key": "invoiceTotalCazuelaCamarones",
+      "disabled": true
+    },
+    {
+      "text": "# Bebidas",
+      "type": "text",
+      "layout": {
+        "row": "Row_0brt7ui",
+        "columns": null
+      },
+      "id": "Field_1q9zcgt"
+    },
+    {
+      "label": "Preparada",
+      "type": "number",
+      "layout": {
+        "row": "Row_04758ol",
+        "columns": null
+      },
+      "id": "Field_0g48zcu",
+      "key": "numberPreparada",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1tkq9s2",
+        "columns": null
+      },
+      "id": "Field_1xrcrws",
+      "key": "invoiceTotalPreparadas",
+      "disabled": true
+    },
+    {
+      "label": "Jarra Preparada",
+      "type": "number",
+      "layout": {
+        "row": "Row_03sph0i",
+        "columns": null
+      },
+      "id": "Field_027sdsr",
+      "key": "numberJarraPreparada",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0rn3lin",
+        "columns": null
+      },
+      "id": "Field_1mg8vmi",
+      "key": "invoiceTotalJarraPreparada",
+      "disabled": true
+    },
+    {
+      "label": "Zumo Naranja",
+      "type": "number",
+      "layout": {
+        "row": "Row_14m7nuc",
+        "columns": null
+      },
+      "id": "Field_1qthmab",
+      "key": "numberZumoNaranja",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0q79zzo",
+        "columns": null
+      },
+      "id": "Field_198nusm",
+      "key": "invoiceTotalZumoNaranja",
+      "disabled": true
+    },
+    {
+      "label": "Jarra Zumo Naranja",
+      "type": "number",
+      "layout": {
+        "row": "Row_06vwako",
+        "columns": null
+      },
+      "id": "Field_0tr7tyo",
+      "key": "numberJarraZumoNaranja",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0fw8kyb",
+        "columns": null
+      },
+      "id": "Field_1fs0fpf",
+      "key": "invoiceTotalJarraZumoNaranja",
+      "disabled": true
+    },
+    {
+      "label": "Zumo Mandarina ",
+      "type": "number",
+      "layout": {
+        "row": "Row_0u3jh0y",
+        "columns": null
+      },
+      "id": "Field_0i7okoi",
+      "key": "numberZumoMandarina",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_02pl33b",
+        "columns": null
+      },
+      "id": "Field_0o3tqtn",
+      "key": "invoiceTotalZumoMandarina",
+      "disabled": true
+    },
+    {
+      "label": "Jarra Zumo Mandarina",
+      "type": "number",
+      "layout": {
+        "row": "Row_12q67od",
+        "columns": null
+      },
+      "id": "Field_0mzx0r0",
+      "key": "numberJarraZumoMandarinada",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_17rwa5h",
+        "columns": null
+      },
+      "id": "Field_07rkwbj",
+      "key": "invoiceTotalJarraZumoMandarina",
+      "disabled": true
+    },
+    {
+      "label": "Jugo natural en agua",
+      "type": "number",
+      "layout": {
+        "row": "Row_0dyjmvo",
+        "columns": null
+      },
+      "id": "Field_0gpz3tu",
+      "key": "numberJugoAgua",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "Fruta",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0pzres4",
+        "columns": null
+      },
+      "id": "Field_086pifz",
+      "key": "frutaJugoAgua",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_006p8vy",
+        "columns": null
+      },
+      "id": "Field_1tdiwjs",
+      "key": "invoiceTotalJugoAgua",
+      "disabled": true
+    },
+    {
+      "label": "Jugo natural en leche",
+      "type": "number",
+      "layout": {
+        "row": "Row_1re88jc",
+        "columns": null
+      },
+      "id": "Field_1a0g9z7",
+      "key": "numberJugoLeche",
+      "defaultValue": 0,
+      "disabled": true
+    },
+    {
+      "label": "Fruta",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1z0ew1k",
+        "columns": null
+      },
+      "id": "Field_1expyqx",
+      "key": "frutaJugoLeche",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0u9at1w",
+        "columns": null
+      },
+      "id": "Field_0cpjqk3",
+      "key": "invoiceTotalJugoLeche",
+      "disabled": true
+    },
+    {
+      "label": "Jarra de Naranjada",
+      "type": "number",
+      "layout": {
+        "row": "Row_0brvgzj",
+        "columns": null
+      },
+      "id": "Field_17r8jqs",
+      "key": "numberJarraNaranjada",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_01kv9k2",
+        "columns": null
+      },
+      "id": "Field_1svsqdx",
+      "key": "invoiceTotalJarraNaranjada",
+      "disabled": true
+    },
+    {
+      "label": "Jarra de Mandarinada",
+      "type": "number",
+      "layout": {
+        "row": "Row_1m31v9d",
+        "columns": null
+      },
+      "id": "Field_1ord8hb",
+      "key": "numberJarraMandarinada",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hxzs97",
+        "columns": null
+      },
+      "id": "Field_0vhpwhq",
+      "key": "invoiceTotalJarraMandarinada",
+      "disabled": true
+    },
+    {
+      "label": "Gaseosa personal",
+      "type": "number",
+      "layout": {
+        "row": "Row_0uzzq75",
+        "columns": null
+      },
+      "id": "Field_06bnyxm",
+      "key": "numberGaseosaPersonal",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_077zxyu",
+        "columns": null
+      },
+      "id": "Field_1amyrtn",
+      "key": "invoiceTotalGaseosaPersonal",
+      "disabled": true
+    },
+    {
+      "label": "Gaseosa 1,5 Lts",
+      "type": "number",
+      "layout": {
+        "row": "Row_17nen2z",
+        "columns": null
+      },
+      "id": "Field_0s946mh",
+      "key": "numberGaseosa1,5",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_17zgun2",
+        "columns": null
+      },
+      "id": "Field_01gttsi",
+      "key": "invoiceTotalGaseosaLts",
+      "disabled": true
+    },
+    {
+      "label": "Gaseosa Mega",
+      "type": "number",
+      "layout": {
+        "row": "Row_0mzb2al",
+        "columns": null
+      },
+      "id": "Field_1el4qdj",
+      "key": "numberGaseosaMega",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zi9x9a",
+        "columns": null
+      },
+      "id": "Field_0nljloh",
+      "key": "invoiceTotalGaseosaMega",
+      "disabled": true
+    },
+    {
+      "label": "Cerveza Poker",
+      "type": "number",
+      "layout": {
+        "row": "Row_03ocgbp",
+        "columns": null
+      },
+      "id": "Field_0i82r7k",
+      "key": "numberCervezaPoker",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ps5s71",
+        "columns": null
+      },
+      "id": "Field_0x1i5bd",
+      "key": "invoiceTotalCervezaPoker",
+      "disabled": true
+    },
+    {
+      "label": "Cerveza Aguila",
+      "type": "number",
+      "layout": {
+        "row": "Row_1iua42x",
+        "columns": null
+      },
+      "id": "Field_1epuerm",
+      "key": "numberCervezaAguila",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0c7bral",
+        "columns": null
+      },
+      "id": "Field_1338heb",
+      "key": "invoiceTotalCervezAguila",
+      "disabled": true
+    },
+    {
+      "label": "Cerveza Aguila Ligth",
+      "type": "number",
+      "layout": {
+        "row": "Row_1hvlyrr",
+        "columns": null
+      },
+      "id": "Field_101y9ng",
+      "key": "numberCervezaAguilaLigth",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0iokruv",
+        "columns": null
+      },
+      "id": "Field_0v565wp",
+      "key": "invoiceTotalCervezaAguilaLigth",
+      "disabled": true
+    },
+    {
+      "label": "Cerveza Club Dorada",
+      "type": "number",
+      "layout": {
+        "row": "Row_0qi1trc",
+        "columns": null
+      },
+      "id": "Field_0k9fjqg",
+      "key": "numberCervezaClubDorada",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1iojzzm",
+        "columns": null
+      },
+      "id": "Field_1tu0hvc",
+      "key": "invoiceTotalCervezaClubDorada",
+      "disabled": true
+    },
+    {
+      "label": "Agua en Botella",
+      "type": "number",
+      "layout": {
+        "row": "Row_1l5ye99",
+        "columns": null
+      },
+      "id": "Field_0mhsjj7",
+      "key": "numberAguaBotella",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1utl3yq",
+        "columns": null
+      },
+      "id": "Field_18iip18",
+      "key": "invoiceTotalAguaBotella",
+      "disabled": true
+    },
+    {
+      "text": "# Postres",
+      "type": "text",
+      "layout": {
+        "row": "Row_1e4suhz",
+        "columns": null
+      },
+      "id": "Field_0ah897i"
+    },
+    {
+      "label": "Postres",
+      "type": "number",
+      "layout": {
+        "row": "Row_06sfrdx",
+        "columns": null
+      },
+      "id": "Field_0vazx5r",
+      "key": "numberPostres",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1iy4qvd",
+        "columns": null
+      },
+      "id": "Field_1mit5ja",
+      "key": "invoiceTotalPostres",
+      "disabled": true
+    },
+    {
+      "label": "Helados",
+      "type": "number",
+      "layout": {
+        "row": "Row_1a9v44f",
+        "columns": null
+      },
+      "id": "Field_0uv73uf",
+      "key": "numberHelado",
+      "disabled": true
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ymed3x",
+        "columns": null
+      },
+      "id": "Field_0i6t8i2",
+      "key": "invoiceTotalHelados",
+      "disabled": true
+    },
+    {
+      "text": "# Total ",
+      "type": "text",
+      "layout": {
+        "row": "Row_04n4skv",
+        "columns": null
+      },
+      "id": "Field_19fwffo"
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0emq78t",
+        "columns": null
+      },
+      "id": "Field_1sj17ig",
+      "key": "Total",
+      "disabled": true
+    },
+    {
+      "text": "# Valor del descuento",
+      "type": "text",
+      "layout": {
+        "row": "Row_1521ef1",
+        "columns": null
+      },
+      "id": "Field_0ohilgw"
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_10s0p8h",
+        "columns": null
+      },
+      "id": "Field_0r8htnk",
+      "key": "valorDescuento",
+      "disabled": true
+    },
+    {
+      "text": "# Total con descuento",
+      "type": "text",
+      "layout": {
+        "row": "Row_03r0tp1",
+        "columns": null
+      },
+      "id": "Field_1g6fmlu"
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1edstmx",
+        "columns": null
+      },
+      "id": "Field_1pnjqxs",
+      "key": "TotalConDescuento",
+      "disabled": true
+    },
+    {
+      "text": "# IVA 16 %",
+      "type": "text",
+      "layout": {
+        "row": "Row_14icpqz",
+        "columns": null
+      },
+      "id": "Field_1m5c92s"
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1vxrc55",
+        "columns": null
+      },
+      "id": "Field_1kgm7mk",
+      "key": "Iva",
+      "disabled": true
+    },
+    {
+      "text": "# Total con propina",
+      "type": "text",
+      "layout": {
+        "row": "Row_1o1nn96",
+        "columns": null
+      },
+      "id": "Field_0o82iwq"
+    },
+    {
+      "label": "$",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_16g762p",
+        "columns": null
+      },
+      "id": "Field_0ny1pw7",
+      "key": "TotalConPropina",
+      "disabled": true
+    }
+  ],
+  "type": "default",
+  "id": "FormFactura",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

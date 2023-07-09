@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:modeler="http://camunda.org/schema/modeler/1.0" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="Descuent" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.10.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.19.0">
+  <decision id="Descuentos" name="Decision 1">
+    <decisionTable id="DecisionTable_1qj2zj4">
+      <input id="Input_1" label="Total" camunda:inputVariable="Total">
+        <inputExpression id="InputExpression_1" typeRef="long">
+          <text>Total</text>
+        </inputExpression>
+      </input>
+      <output id="Output_1" label="Descuento" name="porcentaje" typeRef="long" />
+      <rule id="DecisionRule_0rb65h6">
+        <inputEntry id="UnaryTests_12ioc3a">
+          <text>&lt;200000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_08ot4nz">
+          <text>0</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1clmgir">
+        <inputEntry id="UnaryTests_0uukfrb">
+          <text>[200000..300000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1kz2sg6">
+          <text>2</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1alw4t0">
+        <inputEntry id="UnaryTests_0zpd8yy">
+          <text>[301000..500000]</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0gg67me">
+          <text>3</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1tq4csi">
+        <inputEntry id="UnaryTests_0qhd4oq">
+          <text>&gt;500000</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0d93kat">
+          <text>5</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Descuentos">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>

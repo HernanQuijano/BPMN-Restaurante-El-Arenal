@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "text": "# Cortesía",
+      "type": "text",
+      "layout": {
+        "row": "Row_04m9y0p",
+        "columns": null
+      },
+      "id": "Field_1thcwbk"
+    },
+    {
+      "label": "¿Cortesía?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0bvjo3s",
+        "columns": null
+      },
+      "id": "Field_0l8x6oj",
+      "key": "CheckCortesia"
+    },
+    {
+      "label": "Tintos",
+      "type": "number",
+      "layout": {
+        "row": "Row_10772hu",
+        "columns": null
+      },
+      "id": "Field_15xui71",
+      "key": "numberTintos",
+      "defaultValue": 0
+    },
+    {
+      "label": "Aromaticas Frutos Amarilos",
+      "type": "number",
+      "layout": {
+        "row": "Row_12wy04m",
+        "columns": null
+      },
+      "id": "Field_07pjv4l",
+      "key": "field_1a05myp",
+      "defaultValue": 0
+    },
+    {
+      "label": "Aromaticas Frutos Rojos",
+      "type": "number",
+      "layout": {
+        "row": "Row_1q7iww3",
+        "columns": null
+      },
+      "id": "Field_0rlmqub",
+      "key": "field_0vwhokl",
+      "defaultValue": 0
+    }
+  ],
+  "type": "default",
+  "id": "FormCortesia",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.10.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
